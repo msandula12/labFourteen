@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- CSS compiled with Stylus -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>CatDog</title>
+</head>
+<body ng-app="catDog">
+	<div class="container">
+		<img id="logo" src="images/catdoglogo.png" alt="">
+		<p id="navigation">
+			<a href="#/">Cat</a>
+			<a href="#/partials/partial2">Dog</a>
+			<a href="#/partials/partial3">CatDog</a>
+		</p>
+		<!-- Partial view viewer -->
+		<ng-view></ng-view>
+	</div>
+
+	<!-- AngularJS libraries -->
+	<script src="scripts/angular.min.js"></script>	
+	<script src="scripts/angular-route.min.js"></script>
+	<!-- My JavaScript app -->
+	<script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  background: #f37b01;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+#logo {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+#navigation {
+  text-align: center;
+  word-spacing: 0px;
+}
+a {
+  text-decoration: none;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Verdana;
+  background: #af3e20;
+  padding: 8px;
+  border-radius: 5px;
+}
+a:hover {
+  background: #da5532;
+}
+.display {
+  margin-top: 20px;
+  width: 100%;
+}
