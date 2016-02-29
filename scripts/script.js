@@ -14,5 +14,9 @@ app.config(function($routeProvider){
 			templateUrl: 'partials/partial3.html',
 			controller: 'routeCtrl'
 		})
+		// .when('/partials/404', {
+		// 	templateUrl: 'partials/404.html',
+		// 	controller: 'routeCtrl'
+		// })
 		.otherwise({ redirectTo: '/' });
 });
